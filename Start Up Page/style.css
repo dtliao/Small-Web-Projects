@@ -1,0 +1,32 @@
+.intro-2 {
+    background: url("background.jpg")no-repeat center;
+    background-size: cover;
+}
+    
+.navbar {
+    background-color: black;
+}
+
+/* Below is STYLE code*/
+.btn-warning{
+	border-radius: 25px;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	border-style: solid;
+}
+
+.btn-warning:hover{
+	border-width: 2.5px;
+	border-color: #f80; 
+}
+
+.container{
+	font-family: Cabin, sans-serif;
+}
+
+.rgba-purple-light {
+	background-color: transparent;
+}
+
+.div p {
+	text-align: left; 

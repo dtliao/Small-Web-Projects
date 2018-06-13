@@ -1,0 +1,102 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin 0px auto;
+	background:url("image.jpg") no-repeat;
+	background-size: cover;
+}
+
+html, body{
+	height: 100%;	
+	overflow: hidden;
+}
+  
+#contact {
+    background-color: rgba(156,39,176,.3);
+    z-index; 0;
+    height: 100%;
+}
+
+.title {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 80px;
+	font-weight: 600;
+	color: #877c7c;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 800px) {
+  #contactForm input {
+    width: 70%;
+  }
+  #contactForm textarea {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #contactForm input{
+    width: 70%;
+  }
+}
+
+#contactForm input{
+  border: solid black; 
+  border-width: 0px 0px 1.5px 0px;
+}
+
+#contactForm button {
+  border-radius: 15rem;
+  background-color: #9c7e20;
+  border-color: #9c7e20;
+  width: 80px;
+  transition: all 0.7s;
+  color:black;
+  font-weight: 700;
+}
+
+#contactForm button:hover {
+  background-color: #495057;
+  border-color: #495057;
+  color:black;
+}
+
+#contactForm input:focus, #contactForm textarea:focus, #contactForm button:focus{
+  box-shadow: none;
+}
+
+#contactForm input:focus, #contactForm textarea:focus {
+	outline: 0px;
+}
+
+#contactForm input, #contactForm textarea {
+	background-color: transparent;
+	color: black;
+	font-size: 23px;
+}
+
+#contactForm textarea {
+	background: rgba(20, 21, 20, 0.20);
+	padding: 0.7em;
+	border: none;
+}
+
+.box {
+	margin:auto;
+	width:80%;
+}
+
+form, .title{
+	width: 50%;
+	margin: auto;
+}
+
+p {
+	color:#71a068;
+	font-weight: 800;
+	font-style: italic;
+}
+
+::placeholder {
+	color: #090909 !important;
+}
+
